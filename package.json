@@ -43,12 +43,12 @@
 		"id"
 	],
 	"dependencies": {
-		"@sindresorhus/slugify": "^0.2.0",
+		"@sindresorhus/slugify": "^0.6.0",
 		"meow": "^5.0.0"
 	},
 	"devDependencies": {
-		"ava": "*",
-		"execa": "^0.10.0",
-		"xo": "*"
+		"ava": "^0.25.0",
+		"execa": "^1.0.0",
+		"xo": "^0.23.0"
 	}
 }
