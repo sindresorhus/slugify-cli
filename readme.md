@@ -2,13 +2,11 @@
 
 > Slugify a string
 
-
 ## Install
 
 ```
 $ npm install --global slugify-cli
 ```
-
 
 ## Usage
 
@@ -31,12 +29,6 @@ $ slugify --help
     unicorns_and_rainbows
 ```
 
-
 ## Related
 
 - [slugify](https://github.com/sindresorhus/slugify) - API for this module
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
