@@ -43,7 +43,7 @@
 		"id"
 	],
 	"dependencies": {
-		"@sindresorhus/slugify": "^0.6.0",
+		"@sindresorhus/slugify": "^0.11.0",
 		"meow": "^5.0.0"
 	},
 	"devDependencies": {
