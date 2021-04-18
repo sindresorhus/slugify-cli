@@ -1,7 +1,6 @@
 #!/usr/bin/env node
-'use strict';
-const meow = require('meow');
-const slugify = require('@sindresorhus/slugify');
+import meow from 'meow';
+import slugify from '@sindresorhus/slugify';
 
 const cli = meow(`
 	Usage
