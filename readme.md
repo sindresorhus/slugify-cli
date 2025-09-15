@@ -4,8 +4,8 @@
 
 ## Install
 
-```
-$ npm install --global slugify-cli
+```sh
+npm install --global slugify-cli
 ```
 
 ## Usage
@@ -31,4 +31,4 @@ $ slugify --help
 
 ## Related
 
-- [slugify](https://github.com/sindresorhus/slugify) - API for this module
+- [slugify](https://github.com/sindresorhus/slugify) - API for this package

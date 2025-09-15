@@ -15,7 +15,7 @@
 		"slugify": "./cli.js"
 	},
 	"engines": {
-		"node": ">=12"
+		"node": ">=20"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -45,12 +45,12 @@
 		"id"
 	],
 	"dependencies": {
-		"@sindresorhus/slugify": "^2.0.0",
-		"meow": "^9.0.0"
+		"@sindresorhus/slugify": "^3.0.0",
+		"meow": "^13.2.0"
 	},
 	"devDependencies": {
-		"ava": "^3.15.0",
-		"execa": "^5.0.0",
-		"xo": "^0.38.2"
+		"ava": "^6.4.1",
+		"execa": "^9.6.0",
+		"xo": "^1.2.2"
 	}
 }

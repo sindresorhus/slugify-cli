@@ -18,23 +18,24 @@ const cli = meow(`
 	  $ slugify 'Unicorns & Rainbows' --separator='_'
 	  unicorns_and_rainbows
 `, {
+	importMeta: import.meta,
 	flags: {
 		separator: {
-			type: 'string'
+			type: 'string',
 		},
 		lowercase: {
 			type: 'boolean',
-			default: true
+			default: true,
 		},
 		decamelize: {
 			type: 'boolean',
-			default: true
+			default: true,
 		},
 		preserveLeadingUnderscore: {
 			type: 'boolean',
-			default: false
-		}
-	}
+			default: false,
+		},
+	},
 });
 
 const [text] = cli.input;
